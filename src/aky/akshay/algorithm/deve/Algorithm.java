@@ -34,6 +34,7 @@ import android.widget.ListView;
 
 import com.ls.list.threed.ThreeDListView;
 
+/* Starting point for APPLICATION */
 @SuppressLint("NewApi")
 public class Algorithm extends Activity{
 

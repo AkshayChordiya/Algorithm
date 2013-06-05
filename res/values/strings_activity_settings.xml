@@ -1,0 +1,162 @@
+<resources>
+
+    <!-- Headers for fragments -->
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_header_general">General</string>
+    
+    <!-- Settings Related Strings-->
+    
+    <!-- Music -->   
+    <string name="music_title">Splash Screen Music</string>
+    <string name="music_summary">Get an beautiful splashing music on splash screen by Rohit Rahman</string>
+    
+    <!-- Animations -->
+    <string name="fade_title">Sliding effect (Exciting)</string>
+    <string name="fade_summary_on">New handmade animations STARTED</string>
+    <string name="fade_summary_off">Feel android animations are dull</string>
+    
+    <!-- Splash Timer -->
+    <string name="splash_title">Splash Screen Timer</string>
+    <string name="splash_summary">Set how long to display splash screen</string>
+    
+    <!-- Answer Theme -->
+    <string name="toast_title">Answer Theme</string>
+    <string name="toast_summary">Choose an theme for ANSWER output</string>
+    
+    <!-- Exit Dialog -->
+    <string name="exit_title">Show Exit Confirmation</string>
+    <string name="exit_summary_on">Showing Confirmatoin Dialog on pressing exit</string>
+    <string name="exit_summary_off">Direct exit for experienced users is activated</string>
+        
+    <!-- Splash timer values -->
+    <string-array name="splash_duration">
+        <item >2.5 Seconds (Default)</item>
+        <item >1.5 Seconds</item>
+        <item >OFF</item>
+    </string-array>
+    <!-- Splash timer constant values -->
+    <string-array name="splash_duration_values">
+        <item >0</item>
+        <item >5</item>
+        <item >3</item>
+    </string-array>
+    
+    <!-- Answer Theme value -->
+    <string-array name="answer_theme">
+        <item >Popup Dialog Answer with COPY button</item>
+        <item >Crouton Popups (Exciting)</item>
+        <item >Android Toast Message</item>
+    </string-array>
+    <!-- Answer Theme constant values -->
+    <string-array name="answer_theme_values">
+        <item >10</item>
+        <item >15</item>
+        <item >20</item>
+    </string-array>
+    
+    
+    <!-- Themes -->
+    <string name="theme_title">Themes</string>    
+    <string name="theme_summary">Choose between preinstalled themes</string>
+    
+    <!-- Themes values -->
+    <string-array name="theme_apply">
+        <item >Dark (Default)</item>
+        <item >Light (Misses some elements)</item>
+    </string-array>
+    <!-- Themes constant values -->
+    <string-array name="theme_apply_values">
+        <item >100</item>
+        <item >110</item>
+    </string-array>
+    
+    <!-- Layout Strings -->
+    <string name="layout_title">Layout</string>
+    <string name="layout_summary">Change the layout of app</string>
+    <string-array name="layout_entries">
+        <item >List View (Default)</item>
+        <item >Grid View</item>  
+        <item >3D List View</item>      
+        </string-array>
+    <string-array name="layout_values">
+        <item >500</item>
+        <item >550</item>
+        <item >600</item>
+    </string-array>
+    
+    <!-- Fast Scroll -->
+    <string name="scroll_title">Allow fast / thumb scroll</string>
+    <string name="scroll_summary">Thumb bar for faster scrolling in list view &amp; grid view</string>
+    
+    <!-- Potrait Fullscreen -->    
+    <string name="pot_full_title">Fullscreen</string>
+    <string name="pot_full_summary">Hide the system status bar in portrait &amp; landscape mode</string>
+    
+    <!-- About related strings -->
+    <string name="author_title">Author - Developer</string>
+    <string name="author_summary">Akshay Chordiya - Aky</string>
+    <string name="version_title">Version</string>       
+    <string name="about_changelog_title">Changelog</string>
+    <string name="about_changelog_summary">What\'s New</string>
+    <string name="about_plan_title">Planned Features</string>
+    <string name="about_plan_summary">Functionality for future releases</string>
+    
+    <!-- Calculation  -->
+    <string name="raise_title">No Scientific Notations</string>
+    <string name="raise_summary_on">Values in Simple 10^x form</string>
+    <string name="raise_summary_off">Values in Scientific E^x form</string>
+    <!-- Degree & Radian -->
+    <string name="angle_title">Default Angle Unit</string>
+    <string name="angle_summary">Switch between angle units</string>
+    <string-array name="angle_entries">
+        <item >Degree (Default)</item>
+        <item >Radian</item>        
+        </string-array>
+    <string-array name="angle_values">
+        <item >1000</item>
+        <item >1001</item>
+    </string-array>
+    
+    <!-- Fractions -->
+    <string name="maxFraction_title">Set Round Results</string>
+    <string name="maxFraction_summary">Set digits to be displayed after decimal Eg 0.2456</string>
+    
+    <!-- Terminate App -->
+    <string name="fastExit_title">Terminate app on exit</string>
+    <string name="fastExit_summary">Great for slow or low range phones for clearing memory space</string>
+    
+    <!-- Proximity Exit -->
+    <string name="rapidExit_title">Use Proximity sensor</string>
+    <string name="rapidExit_summary">Exit app with just swipe over Proximity sensor</string>
+    
+    <!-- List Data Rendering Animation -->
+    <string name="render_anim_title">List View Rendering Animation</string>
+    <string name="render_anim_summary">Select the animation or turn Off</string>
+    <string-array name="render_entries">
+        <item >Fading Animation</item>
+        <item >Droping Animation</item>    
+        <item >Disable Animation</item>        
+        </string-array>
+    <string-array name="render_values">
+        <item >1002</item>
+        <item >1003</item>
+        <item >1004</item>
+    </string-array>
+    
+    <!-- Email Support -->
+    <string name="email_title">Email Support</string>
+    <string name="email_summary">akshaychordiya2@gmail.com</string>
+    
+    <!-- Default Multiplication Sign -->
+    <string name="default_mul_sign_title">Default multiplication sign</string>
+    <string name="default_mul_sign_summary">Select multiplication sign which you like</string>
+    <string-array name="mul_sign_entries">
+        <item >x</item>
+        <item >*</item>        
+        </string-array>
+    <string-array name="mul_sign_values">
+        <item >1005</item>
+        <item >1006</item>
+    </string-array>
+
+</resources>

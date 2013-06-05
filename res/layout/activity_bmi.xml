@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BMI" >
+    
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="63sp"
+        android:background="@android:drawable/editbox_background"
+        android:gravity="center"
+        android:hint="@string/weight_enter"
+        android:inputType="number|numberDecimal"
+        android:textColor="@color/androidblue" >
+
+        <requestFocus />
+    </EditText>
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/title_activity_bmi"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/androidblue" />
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/weight"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/height_enter"
+        android:inputType="number|numberDecimal"
+        android:textColor="@color/androidblue" />
+
+</RelativeLayout>

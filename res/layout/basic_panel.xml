@@ -1,0 +1,222 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"   
+    android:layout_height="match_parent" >
+    
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/equal_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal" >
+                    
+    <Button
+        android:id="@+id/equal"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="@color/default_green"
+        android:text="@string/button_equal"
+        android:textSize="28sp" />
+    
+    </LinearLayout>
+    
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayoutBasic"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/equal_layout"        
+        android:orientation="horizontal" >
+        
+        <Button
+            android:id="@+id/btn_Clear"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:textColor="@color/red"
+            android:text="@string/button_clear_all" />
+
+        <ImageButton
+            android:id="@+id/btn_delete"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:src="@drawable/calc_delete"
+            android:contentDescription="@string/button_clear" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayoutBasic"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text="@string/button_1" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text="@string/button_2" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text="@string/button_3" />
+
+        <Button
+            android:id="@+id/operator_add"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:textColor="@color/androidblue"
+            android:text="@string/operator_add" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout01"
+        android:orientation="horizontal" >
+          
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text="@string/button_4" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text="@string/button_5" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text="@string/button_6" />
+
+        <Button
+            android:id="@+id/operator_sub"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:textColor="@color/androidblue"
+            android:text="@string/operator_sub" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout03"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout02"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text="@string/button_7" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text="@string/button_8" />
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text="@string/button_9" />
+        <Button
+            android:id="@+id/operator_mul"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:textColor="@color/androidblue"
+            android:text="@string/operator_mul" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout04"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout03"
+        android:orientation="horizontal" >
+        
+        <Button
+            android:id="@+id/btnDec"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text="@string/button_decimal" />
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text="@string/button_0" />    
+            
+        
+        <Button
+            android:id="@+id/change_sign"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text="@string/change_sign" />
+
+        <Button
+            android:id="@+id/operator_div"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:textColor="@color/androidblue"
+            android:text="@string/operator_div" />
+    </LinearLayout>
+
+</RelativeLayout>

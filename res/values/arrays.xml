@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  This file contains only arrays -->
+    <!-- Arrays -->
+    
+    <!-- Triangle known query -->
+    <string-array name="side_angle_query">
+        <item >Side , Side , Side</item>
+        <item >Side , Side , Angle</item>
+        <item >Side , Angle , Angle</item>
+        <item >Angle , Angle , Angle</item>
+    </string-array>
+    
+    <!-- Detailed Swapping -->
+    <string-array name="swap_query_three">
+        <item >Swap A &amp; B</item>
+        <item >Swap B &amp; C</item>
+        <item >Swap A &amp; C</item>
+    </string-array>
+    
+    <!-- Concentration Query -->
+    <string-array name="conc_query">
+        <item >Conc H+</item>
+        <item >Conc OH-</item>
+    </string-array>
+    
+    <!-- Pythagoras Side Query -->
+    <string-array name="pytha_query">
+        <item >Side A</item>
+        <item >Side B</item>
+        <item >Hypotenuse</item>
+    </string-array>
+    
+    <!-- Extra functions for tools having more than one edittext -->
+    <string-array name="accessibility_dialog">
+        <item >Copy Input(s)</item>
+        <item >Swap ..</item>
+        <item >Clear All</item>
+    </string-array>
+    <!-- Extra functions for normal tools-->
+    <string-array name="accessibility_default">
+        <item >Copy Input(s)</item>
+        <item >Clear All</item>
+    </string-array>
+    
+    <!-- Matrix Functions -->
+    <string-array name="matrix_function_query">
+        <item >A + B</item>
+        <item >A - B</item>
+        <item >A x B</item>        
+        <item >A<sup><small>2</small></sup></item>
+        <item >B<sup><small>2</small></sup></item>
+        <item >AX = B [Find X]</item>
+        <item >Rank(A)</item>
+        <item >Trace(A)</item>
+        <item >|A| or Det(A)</item>
+        <item >A<sup><small>T</small></sup>or Transpose(A)</item>
+        <item >A<sup><small>-1</small></sup></item>
+        <item >Eigen Value (A)</item>
+        <item >Eigen Vector (A)</item>                
+    </string-array>
+    <string-array name="armstrong_query">
+        <item >Check Armstrong number</item>
+        <item >Generate Armstrong number</item>
+    </string-array>
+    
+    <!-- Calculator Query -->
+    <string-array name="calc_query">
+        <item >Copy</item>
+        <item >Cut</item>
+        <item >Paste</item>
+        <item >Clear</item>
+    </string-array>
+    
+    <!-- Dimension Query for BMI calculator -->
+    <string-array name="dimen_bmi">
+        <item >Kg / m<sup><small>2</small></sup></item>
+        <item >lb / inch<sup><small>2</small></sup></item>
+    </string-array>
+
+
+</resources>

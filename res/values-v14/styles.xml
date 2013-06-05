@@ -1,0 +1,3 @@
+<resources>
+    <style name="holo.redesign" parent="@android:style/Theme.Holo"></style>
+</resources>

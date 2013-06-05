@@ -1,0 +1,119 @@
+# Version 1.0.3 [Current]
+
+* New icon
+* Tablet UI improved
+* Grid Layout Fixed in Landscape too added Wave Animation
+* Unit Converter [Progress 70%]
+* Storage improvements
+* Theme engine improvements
+* Heavy Improvements in Converters
+* Unit Converter added
+* Proximity Sensor bug fixes
+* 3D list View finally added
+* Calculator layout bit changed 
+* Fixed Pythagoras layout for Android 2.3
+* Fixed hypotenuse value bug when using croutons or toast
+* Splash Screen default time changed to 2.5 seconds
+* Proper deactivation of proximity sensors after destroying app
+* Memory space decreased
+* Proximity sensor added with sync of exit dialog and terminate app
+* Minor fixes and layout improvements
+* Smart Calculator bug fixes and lots of improvements in calculations
+* Splash screen music now implemented
+* Samsung Multi Window Support
+* Quick Start Guide layout on tablets and some MDPI devices improved
+* Fixed ! BMI crash on changing answer theme to Crouton
+* Added option for selecting dimensions for calculating BMI
+* BMI help added to help too
+* Now, health risk is also shown when calculated BMI
+* Repetition of series in Armstrong fixed and answer theme for it fixed
+* BMI calculator added [Progress 99%]
+* New Accessibility dialog added to calculator on click text box
+* Up or Home button now works [Finally !]
+* List View animation now can be customized
+* App get's restarted after changing theme no manual restarting now needed
+* List View improvements
+* Now, supports generating series of Armstrong numbers
+* Email Support is added in settings and help
+* Slow List View Rendering animation fixed bit for Android 4.2
+* Smart Calculator fixes and improvements
+* Quick Start Guide added for tablets too
+* Smart Calculator(Scalc): Only number keys are working 
+* Scalc advance panel added
+* Minor improvements overall
+* Smart Calc Improvements
+* Smart Calc Progess started
+* Quick Start Guide now with tabs for better UI and navigation
+* Perfect Gesture Detection !!
+* Performance issues fixed
+* Swipe distance varies according to display size [Great!]
+* Lots of Matrix Operations added
+* Garbage stuff removed for better performance
+* Settings change log and planned log now working
+* Action bar fixes
+* Grid View fast scrolling scroll bar added
+* Quadratic Equation fixed
+* Matrix Strings improved
+* Matrix Functions added
+* Quadratic Tool layout fixed
+* Matrix calculation improvements with example and guide for input
+* Layout improvements of various tools with LANDSCAPE fixed
+* Lots of improvements
+* Settings reorganized
+* Grid layout added
+* Dialog fixes
+* Matrix Improved
+* Auto error reporting removed
+* Minor improvements
+* Swiping down asks again for query instead of clearing query
+* Works on Android 2.3
+* All Helping windows removed
+
+# Version 1.0.2
+
+* Out of Alpha stage !!!
+* Quick Start Guide added
+* Android 2.3 issues fixed !
+* Helping Screen Removed
+* Long click to input box
+* Minor fixes
+* Help improved
+* Permissions Removed
+* Orientation fixed
+* UI changes
+* Engine bugs fixed
+* Engines leveled up
+* Calculation fixes
+* Fixes for Android 2.3 or below
+* Overall improvements
+* Triangle Calculator added
+* Engines Level up
+* Minor bugs
+* New version
+
+# Version 1.0.1
+
+* Lots of bugs fixed
+* Gestures updated
+* Matrix engine highly improved
+* Factorial engine improved
+* pH-pOH engine improved
+* Start-up Speed increased
+* Settings UI improved
+* Modern Holo UI for Android 3.0 above, Old Black UI for Android 3.0 and below
+* Settings improved !
+* Improved LIST VIEW
+* Butter smoothness
+* Less memory consumption
+* Detailed calculations
+* Old Calculator removed
+* Added new tools
+* Interface Improved
+* Swiping Gestures
+* Overall improved
+* Crashes Fixed properly
+* Now with Change Log
+
+# Version 1.0.0
+
+       ------Initial Release------

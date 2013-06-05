@@ -1,0 +1,210 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    
+     <!-- opens a subscreen of settings -->
+     <PreferenceScreen
+        android:key="startup_category_key"
+        android:title="Startup"
+        android:icon="@drawable/start_up"
+        android:persistent="false">
+        
+     <PreferenceCategory
+        android:title="Startup" />
+    <ListPreference
+        android:key="splash"
+        android:title="@string/splash_title"
+        android:summary="@string/splash_summary"
+        android:entries="@array/splash_duration"
+        android:entryValues="@array/splash_duration_values"
+        android:defaultValue="0" />
+     <PreferenceCategory
+        android:title="Audio"/>
+     <CheckBoxPreference
+         android:key="music"
+         android:dependency="splash"
+         android:title="@string/music_title"
+         android:summary="@string/music_summary"
+         android:defaultValue="false"/>     
+    <PreferenceCategory
+        android:title="Exit" />
+     <CheckBoxPreference
+        android:key="exit"
+        android:title="@string/exit_title"
+        android:summaryOn="@string/exit_summary_on"
+        android:summaryOff="@string/exit_summary_off"
+        android:defaultValue="true"/>
+     <CheckBoxPreference
+        android:key="fastExit"
+        android:title="@string/fastExit_title"
+        android:summary="@string/fastExit_summary"
+        android:defaultValue="false"/>
+     <CheckBoxPreference
+        android:key="rapidExit"
+        android:title="@string/rapidExit_title"
+        android:summary="@string/rapidExit_summary"
+        android:defaultValue="false"/>            
+    </PreferenceScreen>
+            
+     <PreferenceScreen
+        android:key="design_category_key"
+        android:title="Appearance"
+        android:icon="@drawable/design_light"
+        android:persistent="false">
+     <PreferenceCategory
+        android:title="Theme UI"/> 
+     <ListPreference
+         android:key="theme"
+         android:title="@string/theme_title"
+         android:summary="@string/theme_summary"
+         android:entries="@array/theme_apply"
+         android:entryValues="@array/theme_apply_values"
+         android:defaultValue="100"/>    
+     <ListPreference
+         android:key="toast"
+         android:title="@string/toast_title"
+         android:summary="@string/toast_summary"
+         android:entries="@array/answer_theme"
+         android:entryValues="@array/answer_theme_values"
+         android:defaultValue="10"/>
+     <ListPreference
+         android:key="layout"
+         android:title="@string/layout_title"
+         android:summary="@string/layout_summary"
+         android:entries="@array/layout_entries"
+         android:entryValues="@array/layout_values"
+         android:defaultValue="500"/> 
+         
+      <PreferenceCategory
+          android:title="Feel" />   
+      <CheckBoxPreference
+          android:key="fade"
+          android:title="@string/fade_title"
+          android:summaryOn="@string/fade_summary_on"
+          android:summaryOff="@string/fade_summary_off"
+          android:defaultValue="false" />
+      <ListPreference 
+          android:key="render_animation"
+          android:title="@string/render_anim_title"
+          android:summary="@string/render_anim_summary"
+          android:entries="@array/render_entries"
+          android:entryValues="@array/render_values"
+          android:defaultValue="1002"/>
+      <CheckBoxPreference
+          android:key="scroll"
+          android:title="@string/scroll_title"
+          android:summary="@string/scroll_summary"
+          android:defaultValue="false"/>
+      <CheckBoxPreference
+          android:key="portrait"
+          android:title="@string/pot_full_title"
+          android:summary="@string/pot_full_summary"
+          android:defaultValue="false" />    
+     </PreferenceScreen>
+     
+     <PreferenceScreen
+        android:key="misc_category_key"
+        android:title="Calculation"
+        android:icon="@drawable/calculator"
+        android:persistent="false">                  
+     <PreferenceCategory
+        android:title="Calculation"/>
+     <CheckBoxPreference
+         android:key="raise"
+         android:title="@string/raise_title"
+         android:summaryOn="@string/raise_summary_on"
+         android:summaryOff="@string/raise_summary_off"
+         android:defaultValue="true" />
+     <EditTextPreference
+         android:key="maxFraction"
+         android:title="@string/maxFraction_title"
+         android:summary="@string/maxFraction_summary"
+         android:singleLine="true"
+         android:inputType="number"
+         android:maxLines="1"
+         android:selectAllOnFocus="true"
+         android:defaultValue="4"/>
+     <ListPreference
+         android:key="default_angle"
+         android:title="@string/angle_title"
+         android:summary="@string/angle_summary"
+         android:entries="@array/angle_entries"
+         android:entryValues="@array/angle_values"
+         android:defaultValue="1000"/>
+     
+     <PreferenceCategory
+          android:title="Smart Calculator Only" /> 
+          
+     <ListPreference
+         android:key="default_mul_sign"
+         android:title="@string/default_mul_sign_title"
+         android:summary="@string/default_mul_sign_summary"
+         android:entries="@array/mul_sign_entries"
+         android:entryValues="@array/mul_sign_values"
+         android:defaultValue="1005"/>
+         
+     </PreferenceScreen>
+     
+     <Preference
+         android:key="help"
+         android:title="@string/title_activity_help"
+         android:icon="@drawable/help_setting">
+     <intent
+         android:targetPackage="aky.akshay.algorithm.deve"
+         android:targetClass="aky.akshay.algorithm.deve.Help"/>
+     </Preference>
+     <!-- 
+     <Preference
+         android:key="quick_guide"
+         android:title="@string/title_activity_quick_start"
+         android:icon="@drawable/author">
+     <intent
+         android:targetPackage="aky.akshay.algorithm.deve"
+         android:targetClass="aky.akshay.algorithm.deve.QuickStart"/>
+     </Preference>  -->
+     
+      <PreferenceScreen
+        android:key="about_category_key"
+        android:title="About"
+        android:icon="@drawable/menu_info_black"
+        android:persistent="false">     
+     <Preference
+         android:key="author"
+         android:title="@string/author_title"
+         android:icon="@drawable/author"
+         android:summary="@string/author_summary">
+         <intent
+             android:action="android.intent.action.VIEW"
+             android:data="http://www.facebook.com/Akychordiya" />
+     </Preference>
+     
+     <Preference
+          android:title="@string/version_title"
+          android:summary="@string/version"/>
+     <PreferenceCategory
+         android:title="Development Status"/>
+     <Preference
+          android:key="changelog"
+          android:title="@string/about_changelog_title"
+          android:summary="@string/about_changelog_summary"/>
+     <Preference
+          android:key="plannedlog"
+          android:title="@string/about_plan_title"
+          android:summary="@string/about_plan_summary"/>
+     <PreferenceCategory
+         android:title="Contact / Report Bug"/>
+     <Preference
+          android:key="email_support"
+          android:title="@string/email_title"
+          android:summary="@string/email_summary"/>
+      <Preference
+         android:key="bug_report"
+         android:title="Report Error"
+         android:summary="No Terms &amp; Condition">
+         <intent
+             android:action="android.intent.action.VIEW"
+             android:data="https://docs.google.com/spreadsheet/viewform?formkey=dGpqNUxSS3RZcXVyMmExcm1pMl9SX2c6MQ" />
+      </Preference>     
+      </PreferenceScreen>
+      
+      
+</PreferenceScreen>

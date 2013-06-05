@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"   
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/square_root"
+            android:layout_width="0dp"
+            android:layout_height="93dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text="@string/square_root" />
+        
+        <Button
+            android:id="@+id/custom_root"
+            android:layout_width="0dp"
+            android:layout_height="93dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text="@string/custom_root" />
+
+        <Button
+            android:id="@+id/square_twice"
+            android:layout_width="0dp"
+            android:layout_height="93dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text="@string/square_twice" />
+
+        <Button
+            android:id="@+id/square_x"
+            android:layout_width="0dp"
+            android:layout_height="93dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text="@string/square_x" />       
+    </LinearLayout>
+
+</RelativeLayout>

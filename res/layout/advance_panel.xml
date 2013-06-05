@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayoutBasic"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/sinx"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text="@string/sin_x" />
+
+        <Button
+            android:id="@+id/cosx"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text="@string/cos_x" />
+
+        <Button
+            android:id="@+id/tan"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text="@string/tan_x" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/hyperbolics"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayoutBasic"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/sinhx"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text="@string/sin_hx" />
+
+        <Button
+            android:id="@+id/coshx"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text="@string/cos_hx" />
+
+        <Button
+            android:id="@+id/tanhx"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text="@string/tan_hx" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/hyperbolics"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/log10"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text="@string/log_10" />
+
+        <Button
+            android:id="@+id/loge"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text="@string/log_e" />
+    </LinearLayout>
+
+</RelativeLayout>

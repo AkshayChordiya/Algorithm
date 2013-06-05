@@ -1,0 +1,21 @@
+Frequently Asked Questions :
+
+1. Dialogs are shown even if Answer Theme changed ?
+
+Ans :
+
+Crouton & Toast messages are great, but they are shown for short time. Sometimes, the result is big.
+Hence, Dialogs are shown.
+
+2. Clicking check box in settings dialog pops ?
+
+Ans :
+
+Dialog states that device is running Android 2.3 or less. Hence, the required feature doesn't won't work on that device
+
+
+3. Smart Calculator shows SCIENTIFIC NOTATIONS even though they are OFF from Settings ?
+
+Ans :
+
+Sorry , but it is yet not implemented in Smart Calculator. Will be added in future when all functions of calculator will be added.

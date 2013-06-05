@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Scalc" >
+    
+    <TextView
+        android:id="@+id/textdisplay"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:background="@android:drawable/editbox_background"
+        android:gravity="left"       
+        android:textColor="@color/androidblue"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/ansdisplay"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textdisplay"
+        android:background="@android:drawable/editbox_background"
+        android:gravity="right"
+        android:hint="@string/result_display"
+        android:textColor="@color/androidblue"
+        android:textSize="20sp" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/calc_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ansdisplay" >
+
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>

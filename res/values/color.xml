@@ -1,0 +1,7 @@
+<resources>
+    <!-- This file contains only colors -->
+    <color name="red">#FF0000</color>
+    <!-- Default android blue  #3BB9FF & #00BAFF is the color taken from image-->
+    <color name="androidblue">#00BAFF</color>
+    <color name="default_green">#008000</color>
+</resources>

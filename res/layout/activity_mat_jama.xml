@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/title_activity_mat_jama"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/androidblue" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/mat_rc_help"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1" >
+
+        <EditText
+            android:id="@+id/MatA"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.67"
+            android:background="@android:drawable/editbox_background"
+            android:ems="10"
+            android:gravity="center"
+            android:digits="0123456789-,\n"            
+            android:inputType="numberDecimal|numberSigned"
+            android:hint="@string/mat_a"          
+            android:textColor="@color/androidblue" />
+
+        <EditText
+            android:id="@+id/MatB"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.89"
+            android:background="@android:drawable/editbox_background"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/mat_b"
+            android:digits="0123456789-,\n"
+            android:inputType="numberDecimal|numberSigned"
+            android:textColor="@color/androidblue" />
+    </LinearLayout>
+
+</RelativeLayout>

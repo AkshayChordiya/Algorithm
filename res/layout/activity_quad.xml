@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/title_activity_quad"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/androidblue" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="56dp"
+        android:gravity="center"
+        android:text="@string/quad_equation"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/red"
+        android:textSize="45sp" />
+
+    <EditText
+        android:id="@+id/EditText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/side_B"
+        android:inputType="number|numberSigned"
+        android:textColor="@color/androidblue" />
+
+    <EditText
+        android:id="@+id/EditText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/EditText2"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/side_C"
+        android:inputType="number|numberSigned"
+        android:textColor="@color/androidblue" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/EditText2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/side_A"
+        android:inputType="number|numberSigned"
+        android:textColor="@color/androidblue" />
+
+</RelativeLayout>

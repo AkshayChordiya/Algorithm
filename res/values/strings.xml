@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Application Strings , All that stuff here -->
+
+
+    <!-- Splash Screen -->
+    <string name="app_name">Algorithm</string>
+    <string name="version">1.0.4</string>
+    <string name="rights">Copyright © 2013 by Akshay(Aky)</string>
+    <string name="app_desc">Simple Fast Stable</string>
+    <string name="menu_settings">Settings</string>
+
+    <!-- Quadratic -->
+    <string name="side_A">Coefficient A</string>
+    <string name="side_B">Coefficient B</string>
+    <string name="side_C">Coefficient C</string>
+    <string name="quad_equation">ax<sup><small>2</small></sup> + bx + c = 0</string>
+
+    <!-- Pythagoras -->
+    <string name="hypo">Hypotenuse</string>
+    <string name="enter_arm_no">Enter number to check</string>
+    <string name="enter_fact_no">Enter number to calculate</string>
+     <string name="enter_conv_no">Enter number to convert</string>
+
+    <!-- pH / pOH activity -->
+    <string name="concen_h">Conc H+</string>
+    <string name="concen_oh">Conc OH-</string>
+    <string name="ph_swipe">Swipe up to begin</string>
+    <string name="exit">Exit</string>
+
+    <!-- Temperature & Number System Converters -->
+    <string name="default_format">Base Unit :</string>
+    <string name="cov_format">Convert To :</string>
+
+    <!-- Title Strings -->
+    <string name="title_activity_pythagoras">Pythagoras Theorem</string>
+    <string name="title_activity_factorial">Factorial</string>
+    <string name="title_arm">Armstrong Number</string>
+    <string name="title_fact">Factorial Generator</string>   
+    <string name="title_activity_quad">Roots of Quadractic Equation</string>
+    <string name="title_activity_ph">pH / pOH Calculator</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_mat_jama">Matrix Calculator</string>
+    <string name="title_activity_triangle">Triangle Calculator</string>
+    <string name="title_activity_quick_start">Quick Start Guide</string>
+    <string name="title_activity_scalc">Smart Calc</string>
+    <string name="title_activity_bmi">BMI Calculator</string>
+    <string name="title_activity_unit_converter">Unit Converter</string>
+    
+    <!-- Conversion Titles -->
+    <string name="title_activity_angle">Angle Conversion</string>
+    <string name="title_activity_area">Area Conversion</string>
+    <string name="title_activity_current">Current Conversion</string>
+    <string name="title_activity_distance">Distance Conversion</string>
+    <string name="title_activity_energy">Energy Conversion</string>
+    <string name="title_activity_force">Force Conversion</string>
+    <string name="title_activity_nsc">Number Base Conversion</string>
+    <string name="title_activity_power">Power Conversion</string>
+    <string name="title_activity_pressure">Pressure Conversion</string>  
+    <string name="title_activity_radio">RadioActivity Conversion</string>
+    <string name="title_activity_temperature">Temperature Conversion</string>
+    <string name="title_activity_time">Time Conversion</string>
+    <string name="title_activity_weight">Weight Conversion</string>
+
+    <!-- Matrix operation strings -->
+    <string name="mat_a">Matrix A : \n\nExample: \n1,2,3 \n4,5,6 \n7,8,0</string>
+    <string name="mat_b">Matrix B : \n\nExample: \n1,2,3 \n4,5,6 \n7,8,0</string>
+    <string name="mat_rc_help">Use <u>COMMA</u> for new element &amp; <u>ENTER</u> for new row</string>
+    <string name="not_square">Square Matrix should be entered</string>
+
+    <!-- Gesture Toasts -->
+    <string name="toast_input_cleared">Input Values Cleared</string>
+    <string name="toast_query_cleared">Change Calculation Query</string>
+    <string name="swaping">Values Swapped</string>
+
+    <!-- Triangle Calculator Strings -->
+    <string name="length_sideA">Length of Side A</string>
+    <string name="length_sideB">Length of Side B</string>
+    <string name="length_side">Length of known Side</string>
+    <string name="known_angle">Known Angle</string>
+
+    <!-- Error & Warning Strings -->
+    <string name="error_title">Number System Error</string>
+    <string name="error_summary">Invalid Input maybe no number entered</string>
+    <string name="construction_error_title">Construction Error</string>
+    <string name="construction_error_summary">Yet, to be made</string>
+    <string name="base_unit_list_error">Please, first select base unit from Left List</string>
+    <string name="os_version_error">This will not work on phones having ANDROID 2.3 or low \n \nPlease, Read FAQ present in HELP for more Info</string>
+    <string name="fact_limit">Average Max limit reached</string>
+    <string name="fact_max">The entered value is greater than average max limit. \nContinuing, MAY make app UNSTABLE.\nNote : Answer will be Infinity for greater than max limit</string>
+
+    <!-- Quick Guide Related -->
+    <string name="skip_guide">Skip this !</string>
+    <string name="quick_welcome_intro">Welcome to <b>Algorithm</b> - <u>Simple</u> , <u>Fast</u> , <u>Feature Rich</u> Mathematical Calculator with Gestures &amp; lots of customisation</string>
+    <string name="quick_start">Please , read this quick start guide to get familiar with all features present in this app</string>
+    <string name="quick_swipe">Swipe to read further</string>
+    <string name="quick_thank_title">Thank You !</string>
+    <string name="quick_thank_summary">Thanks for trying Algorithm. \nHope, you enjoy calculating in this app.</string>
+    <string name="hope_learn">Hope, You got most of the features of app also how to use the app</string>
+    <string name="gesture_title">Algorithm supports lots of Gestures for faster calculations</string>
+    <string name="gesture_summary">Swipe Up to find Answer of input / display query (Depends)\nSwipe Down to clear input / change query (Depends)
+        \nSwipe Right or Left to open Accessibiliy dialog (Useful stuff)</string>
+    <string name="flicker_taunt">No Buttons Only Flicks </string>
+    <string name="space_taunt">Performing gesture just got too easier</string>
+    <string name="popup_info">Total 3 Popups are in Algorithm</string>
+    <string name="popup_detail">The default are Dialogs with COPY button while Croutons are the most exciting &amp; Android default Toast messages are also included</string>
+    <string name="crouton_demo_title">Croutons Demo</string>
+    <string name="crouton_info">Croutons change their colors according to the answers</string>
+    <string name="quick_exit">Start using Algorithm</string>
+
+    <!-- Armstrong -->
+    <string name="arm_yes">The given number is Armstrong</string>
+    <string name="arm_no">The given number is not Armstrong</string>
+    <string name="generate_arm">Enter limit for generating series</string>
+
+    <!-- Universal String for copying -->
+    <string name="clipboard">Copied to Clipboard</string>
+
+    <!-- Buttons for calculator -->
+    <string name="button_0">0</string>
+    <string name="button_1">1</string>
+    <string name="button_2">2</string>
+    <string name="button_3">3</string>
+    <string name="button_4">4</string>
+    <string name="button_5">5</string>
+    <string name="button_6">6</string>
+    <string name="button_7">7</string>
+    <string name="button_8">8</string>
+    <string name="button_9">9</string>
+    <string name="button_equal">=</string>
+    <string name="button_clear">Delete</string>
+    <string name="button_clear_all">AC</string>
+
+    <!-- Operators for calculators -->
+    <string name="operator_add">+</string>
+    <string name="operator_sub">-</string>
+    <string name="operator_mul">x</string>
+    <string name="operator_div">/</string>
+    <string name="button_decimal">.</string>
+    <string name="change_sign">±</string>
+
+    <!-- Trigonometric functions -->
+    <string name="sin_x">sin(x)</string>
+    <string name="cos_x">cos(x)</string>
+    <string name="tan_x">tan(x)</string>
+    <string name="sin_hx">sinh(x)</string>
+    <string name="cos_hx">cosh(x)</string>
+    <string name="tan_hx">tanh(x)</string>
+    <!-- Inverse -->
+    <string name="sin_inverse">sin<sup><small>-1</small></sup>(x)</string>
+    <string name="cos_inverse">cos<sup><small>-1</small></sup>(x)</string>
+    <string name="tan_inverse">tan<sup><small>-1</small></sup>(x)</string>
+    <string name="sin_hinverse">sinh<sup><small>-1</small></sup>(x)</string>
+    <string name="cos_hinverse">cosh<sup><small>-1</small></sup>(x)</string>
+    <string name="tan_hinverse">tanh<sup><small>-1</small></sup>(x)</string>
+
+    <!-- Logarithmic Functions -->
+    <string name="log_10">Log<sub><small>10</small></sub>x</string>
+    <string name="log_e">Log<sub><small>e</small></sub>x</string>
+    <string name="anti10">10<sup><small>x</small></sup></string>
+    <string name="antiE">e<sup><small>x</small></sup></string>
+
+    <!-- Other Functions -->
+    <string name="square_root">√</string>
+    <string name="const_pi">Π</string>
+    <string name="square_twice">x<sup><small>2</small></sup></string>
+    <string name="square_x">x<sup><small>y</small></sup></string>
+    <string name="custom_root"><sup><small>x</small></sup>√y</string>
+    <string name="shift_key">Shift</string>
+    <string name="result_display">Result</string>
+
+    <!-- BMI Calculator Strings -->
+    <string name="weight_enter">Enter Weight</string>
+    <string name="height_enter">Enter Height</string>
+    <string name="bmi_help">What is BMI ?\n\nThe body mass index (BMI), is a heuristic proxy
+         for estimating human body fat based on an individual\'s weight &amp; 
+         height \n\nSource :\n\n WHO (World Health Organisation)
+		 \nNote:It is independed of Male &amp; Female according to new sources</string>
+
+    <!-- Proximity Sensor Unavailable -->
+    <string name="sensor_error">Sensor not available</string>
+    <string name="proximity_sensor_error">Your device doesn\'t have proximity sensor.\nHence, 
+        you can\'t use this function on your device</string>
+
+</resources>

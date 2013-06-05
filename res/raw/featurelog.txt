@@ -1,0 +1,44 @@
+Maybe Coming in future versions
+
+* indicate: Not Confirmed
+# indicate: Extreme Priority
+
+To Do :
+
+Extreme Priority :
+
+1. Implementation of remaining
+    algorithms for Number System
+    Converter and Triangle Calc
+2. Widget and Shortcut
+  
+Medium Priority :
+
+1. Great icon for app
+2. Fill the missing elements of
+    light theme
+3. Remove bugs of Grid View    
+ 
+ Added [Done]:
+ 
+* Better Tablet UI [Progress 45%]
+* Better List View [Progress 80%]
+* Smart Calc [ReBuild It] 
+
+1. 3D List View
+2. Multi-window support
+3. Perfect gesture recognition
+4. Small FAQ
+5. Grid View
+6. More matrix functions
+7. More Features
+8. Quick Start Guide
+9. Splash Screen improved
+10.Better Landscape
+ 
+List to be updated as per request from users
+
+Email me for any additional feature
+
+Soon, you can request feature by
+filling form for required Feature

@@ -1,0 +1,33 @@
+Welcome to GESTURE HELP :
+
+Algorithm supports 4 directional GESTURES
+
+Hence, No need to press anything like buttons, etc.
+Just, Flick & VOILA you get the answer(s)
+
+
+1. Swipe Up :
+
+  How To : Drag your finger from bottom to top from any place in respective Tool    
+   
+  Effect : You , may get QUERY / OUTPUT it depends on the Tool
+   
+2. Swipe Down :
+
+  How To : Drag your finger from top to bottom from any place in respective Tool
+   
+  Effect : The Input values get cleared or Option for changing Query pops, it depends upon the respective tool
+   
+3. Swipe Right or Left:
+
+  How To : Drag your finger from left to right vice versa, from any place in respective Tool
+   
+  Effect : Swipe Right or Left to open Accessibiliy dialog (Useful stuff)
+   
+-----------------------------
+   
+Note : 
+
+Some, Tools don't have gestures like Temperature & Number System Converters because they have list & don't need gesture
+   
+   
